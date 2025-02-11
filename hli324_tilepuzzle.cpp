@@ -182,7 +182,7 @@ int misplaced_h(vector<int> &puzzle) {
             misplaced++;
         }
     }
-    cout << "misplaced = " << misplaced - 1;
+    
     return misplaced - 1;
 }
 int manhattan_h(vector<int> &puzzle) {
